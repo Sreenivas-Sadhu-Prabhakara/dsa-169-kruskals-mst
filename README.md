@@ -12,6 +12,13 @@ Sort edges by weight; walk them, accepting any edge whose endpoints are in diffe
 
 **Complexity:** O(E log E) for the sort; DSU ops effectively O(1).
 
+## Visual walkthrough
+
+Read the picture top to bottom — each numbered frame is one moment of the algorithm
+running on this repo's test example.
+
+![Step-by-step visual walkthrough](viz.svg)
+
 ## Run
 
     go test ./...   # verify
